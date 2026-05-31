@@ -39,7 +39,7 @@ Open the app → Settings → **Data** → **Delete account**. You'll be asked t
 Refunds are handled by Apple. Visit https://reportaproblem.apple.com, sign in with your Apple ID, find the Regulate charge, and request a refund. Apple reviews refund requests case by case.
 
 ### What data do you collect?
-A summary of everything we collect, and what we do with it, is in our **Privacy Policy** ([FILL IN — privacy URL]).
+A summary of everything we collect, and what we do with it, is in our [**Privacy Policy**](https://sparklystudios.github.io/regulate-legal/privacy-policy.html).
 
 ### I'm under 13. Can I use Regulate?
 No. Regulate is for users 13 and older.
@@ -49,8 +49,8 @@ Email us at **lukas160@icloud.com** and we'll figure it out.
 
 ## Links
 
-- [Privacy Policy]([FILL IN — privacy URL])
-- [Terms of Service]([FILL IN — terms URL])
+- [Privacy Policy](https://sparklystudios.github.io/regulate-legal/privacy-policy.html)
+- [Terms of Service](https://sparklystudios.github.io/regulate-legal/terms-of-service.html)
 
 ---
 © 2026 Lukas Padvelskis
