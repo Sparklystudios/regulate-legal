@@ -35,8 +35,9 @@ The data controller is Lukas Padvelskis, an individual based in England and Wale
 | Symptom selections | Onboarding (body, sleep, mental, emotional categories) | Builds your initial Cortisol Score and archetype. | Supabase, `onboarding_symptoms`. |
 | Habit answers | Onboarding (18 yes/no questions about cortisol-related routines) | Identifies flagged habits to include in your plan. | Supabase, `onboarding_habits`. |
 | Daily check-ins (which habits you logged today, optional free-text note) | Each time you complete a check-in | Updates your score, streaks, and recommendations. | Supabase, `check_ins` and `check_in_habit_logs`. |
-| Regulate Button taps | Each time you use the in-app breathing/regulation moment | Tracks completion for your progress view. | Supabase, `regulate_events`. |
-| Notification preferences | When you toggle them in Settings | Remembers your choices on this device. | Stored locally in the iOS Keychain (via expo-secure-store). |
+| Regulate Button taps |  Each time you use the in-app breathing/regulation moment | Tracks completion for your progress view. | Supabase, `regulate_events`. |
+| Stress-scan result | Each time you use the optional stress scan | An appearance-based overall score and five facets (how rested/tense your face looks) — a wellness impression, not a medical measurement. The photo itself is not stored. | Supabase, `face_reads` table. |
+|Notification preferences | When you toggle them in Settings | Remembers your choices on this device. | Stored locally in the iOS Keychain (via expo-secure-store). |
 
 ### Information generated from your inputs
 
@@ -94,7 +95,7 @@ We share data with the service providers that make the app run, listed below. We
 | Sentry (Functional Software Inc., USA) | Crash and error reporting | Errors, stack traces, OS/app/device version, Sentry session identifier. |
 | Apple (Apple Inc., USA) | Sign in with Apple; App Store payment processing | Your Apple ID identity token at sign-in; purchase and subscription events. |
 | RevenueCat (RevenueCat Inc., USA) | Subscription management on top of the App Store | Your account identifier, product purchased, transaction identifier, subscription status. |
-
+| Anthropic (Anthropic PBC, USA) | AI vision analysis for the optional stress scan | The photo you submit for a stress scan, transmitted at the moment of analysis. We don't store the photo; Anthropic processes it under its own API terms to return the appearance impression. |
 Each provider acts as a processor on our behalf and is bound by its own privacy commitments. Their privacy notices are publicly available.
 
 ## International transfers
