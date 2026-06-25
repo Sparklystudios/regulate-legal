@@ -1,7 +1,7 @@
 # Regulate — Privacy Policy
 
-**Effective date:** May 31, 2026
-**Last updated:** May 31, 2026
+**Effective date:** june 25th, 2026
+**Last updated:** june 25th, 2026
 
 ## About this policy
 
@@ -56,7 +56,7 @@ When you subscribe through the App Store, Apple processes the payment. We use **
 ## What we don't collect
 
 - We don't read or write Apple HealthKit.
-- We don't use the camera, microphone, location, contacts, or motion sensors.
+- We don't use the microphone, location, contacts, or motion sensors. (We **do** use the camera and photo library — only for the optional stress scan described below, and only when you choose to scan.)
 - We don't use the iOS advertising identifier (IDFA) and we don't show the App Tracking Transparency prompt because we have nothing to track across other apps.
 - We don't use any advertising SDK, social SDK, or data broker.
 - We don't send you push notifications today (the Settings toggles save your preference but no notifications are scheduled yet).
