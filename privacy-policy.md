@@ -48,8 +48,19 @@ The data controller is Lukas Padvelskis, an individual based in England and Wale
 - **Anonymous analytics identifier** assigned by PostHog when the app first runs, later linked to your account once you sign up.
 - **Crash and error reports** captured by Sentry when something goes wrong in the app, including the error stack, app version, OS version, device model, and a Sentry session identifier.
 - **IP address** is visible to every server we connect to (Supabase, PostHog, Sentry, Apple, RevenueCat) as a property of the HTTPS request. We do not store IP addresses as fields in our database.
+### Stress scan (optional)
 
-### Information related to your subscription
+Regulate includes an optional **stress scan**. You can take a photo with your camera or choose one from your photo library, and our server sends it to an AI vision provider (Anthropic) for a brief, **non-medical impression of how rested or tense you appear** — an overall 0–100 score plus five appearance facets (for example, how tired the eye area looks).
+
+- **The photo is not stored.** It is transmitted for analysis at the moment you scan and is not kept by us — there is no image field in our database and no file storage. We send it to Anthropic only to produce the result.
+- **The result is stored, linked to your account.** The overall score and the five appearance facets are saved so you can see how the impression changes over time.
+- This result is **wellness/appearance information, not a medical or diagnostic measurement** — it reflects how you *look*, not a reading of any bodily or physiological state, and it diagnoses nothing.
+- It is **never** used for advertising and is **never** sold.
+- Like the rest of your data, your stress-scan results are **deleted when you delete your account**.
+
+
+  
+ Information related to your subscription
 
 When you subscribe through the App Store, Apple processes the payment. We use **RevenueCat** to receive subscription status updates (start date, renewal, cancellation, product purchased) and store these in Supabase (`subscriptions`). We never see your card details.
 
