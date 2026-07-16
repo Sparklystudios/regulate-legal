@@ -4,7 +4,7 @@ Hi — thanks for using Regulate. This page is where to come if something's not 
 
 ## What Regulate does, in one paragraph
 
-Regulate is a wellness app that helps you spot patterns in your daily habits that may be raising your stress response. You answer a short quiz about your symptoms and habits, the app produces your **Cortisol Score** and an **archetype** that describes your current pattern, and you get a 30-day plan of small daily habit changes. Each day you check in, log what you did, and your score updates. It's a self-improvement tool, not a medical device.
+Regulate is a wellness app that helps you spot patterns in your daily habits that may be raising your stress response. You answer a short quiz about your symptoms and habits, the app produces your **Cortisol Score** and an **archetype** that describes your current pattern, and you get a 30-day plan of small daily habit changes to work through. It's a self-improvement tool, not a medical device.
 
 ## Get in touch
 
